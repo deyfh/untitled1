@@ -41,7 +41,7 @@ t2 = cv.getTickCount()
 time = (t2 - t1)/cv.getTickFrequency()
 print("time_comsume=%dms"%(time*1000))
 '''
-dst = cv.GaussianBlur(src, (5,5), 5)
+dst = cv.GaussianBlur(src, (5,5), 0)
 cv.imshow("GAUSS", dst)
 #高斯模糊对高斯噪声有一定抑制作用
 
