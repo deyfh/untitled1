@@ -1,4 +1,5 @@
 import cv2 as cv
+import numpy as np
 
 src = cv.imread("/home/dey/Desktop/深度截图_dde-file-manager_20190112225003.png")
 cv.namedWindow("input image",cv.WINDOW_AUTOSIZE)
